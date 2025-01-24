@@ -8,7 +8,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "@dev",
+		"automattic/jetpack-changelogger": "^5.1.0",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
@@ -31,15 +31,6 @@
 			"@composer phpunit"
 		]
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../../packages/*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"config": {
@@ -65,4 +56,3 @@
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
 	}
 }
-
