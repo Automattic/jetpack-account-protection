@@ -10,4 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add initial account protection features
+- Adds a user requires protection filter
 - Initial version.
+
+### Changed
+- Uses jetpack-config package for Account Protection initialization
+- Uses jetpack-logo package for Account Protection logos
